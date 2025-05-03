@@ -16,3 +16,9 @@ Sat, May  3, 2025  2:08:52 PM:
  tests:  11|6
 total_score: 15/70
 4360195
+Sat, May  3, 2025  3:07:00 PM: 
+ treemap.c | 34 ++++++++++++++++++++++++++++++++++
+ 1 file changed, 34 insertions(+)
+ tests:  13|5
+total_score: 25/70
+0722afb
