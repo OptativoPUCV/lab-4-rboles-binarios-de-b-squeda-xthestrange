@@ -172,6 +172,7 @@ Pair * nextTreeMap(TreeMap * tree) {
     }
 
     tree->current = nextParent;
-
+    
+    if(nextParent == NULL) return NULL;
     return nextParent->pair;
 }
