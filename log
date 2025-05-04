@@ -117,3 +117,9 @@ treemap.c:150:13: error: expected ';' before 'current'
              current = current->left;
              ^~~~~~~
 a7b1cf5
+Sun, May  4, 2025  6:47:49 PM: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  29|0
+total_score: 70/70
+4277b10
