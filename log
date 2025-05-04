@@ -51,3 +51,14 @@ Sat, May  3, 2025  8:01:48 PM:
  tests:  18|3
 total_score: 40/70
 5255d0c
+Sun, May  4, 2025  6:11:24 PM: 
+ treemap.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:4:0:
+treemap.c: In function 'upperBound':
+treemap.c:144:5: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+     if (tree->root = NULL) return NULL;
+     ^~
+cc1.exe: all warnings being treated as errors
+61f7be3
