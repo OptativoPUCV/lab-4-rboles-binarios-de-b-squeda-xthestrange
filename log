@@ -109,3 +109,11 @@ treemap.c:150:13: error: expected ';' before 'current'
              current = current->left;
              ^~~~~~~
 12e71a0
+Sun, May  4, 2025  6:19:11 PM: 
+Compilation failed
+In file included from test.c:4:0:
+treemap.c: In function 'upperBound':
+treemap.c:150:13: error: expected ';' before 'current'
+             current = current->left;
+             ^~~~~~~
+a7b1cf5
