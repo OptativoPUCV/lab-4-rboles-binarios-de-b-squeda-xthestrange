@@ -62,3 +62,14 @@ treemap.c:144:5: error: suggest parentheses around assignment used as truth valu
      ^~
 cc1.exe: all warnings being treated as errors
 61f7be3
+Sun, May  4, 2025  6:11:55 PM: 
+ treemap.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+Compilation failed
+In file included from test.c:4:0:
+treemap.c: In function 'firstTreeMap':
+treemap.c:148:5: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+     if (tree->root = NULL) return NULL;
+     ^~
+cc1.exe: all warnings being treated as errors
+fae3bbf
