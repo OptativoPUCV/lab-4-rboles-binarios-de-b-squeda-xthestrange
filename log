@@ -99,3 +99,13 @@ Sun, May  4, 2025  6:16:29 PM:
  tests:  25|1
 total_score: 60/70
 46c251d
+Sun, May  4, 2025  6:19:01 PM: 
+ treemap.c | 14 +++++++++++++-
+ 1 file changed, 13 insertions(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:4:0:
+treemap.c: In function 'upperBound':
+treemap.c:150:13: error: expected ';' before 'current'
+             current = current->left;
+             ^~~~~~~
+12e71a0
